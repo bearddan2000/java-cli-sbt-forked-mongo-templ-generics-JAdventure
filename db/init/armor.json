@@ -1,0 +1,73 @@
+[
+    {
+      "name": "wooden shield",
+      "description": "a wooden shield, watch out for splinters!",
+      "position": "leftHand",
+      "level": 1,
+      "properties": {
+        "armour":3,
+        "weight":4,
+        "value":30
+      }
+    }, {
+      "name": "rusted helmet",
+      "description": "a rusted helmet, it will do for now",
+      "position": "head",
+      "level": 1,
+      "properties": {
+        "armour":4,
+        "weight":3,
+        "value":40
+      }
+    },{
+      "name": "leather breastplate",
+      "description": "a leather breastplate, it will do for now",
+      "position": "chest",
+      "level": 1,
+      "properties": {
+        "armour":5,
+        "weight":10,
+        "value":50
+      }
+    },{
+      "name": "leather greaves",
+      "description": "a pair of leather greaves",
+      "position": "legs",
+      "level": 1,
+      "properties": {
+        "armour":2,
+        "weight":4,
+        "value":30
+      }
+    },{
+      "name": "leather boots",
+      "description": "a pair of leather boots, it will do for now",
+      "position": "feet",
+      "level": 1,
+      "properties": {
+        "armour":2,
+        "weight":10,
+        "value":50
+      }
+    },{
+      "name": "leather gauntlets",
+      "description": "leather gaunlets, they will do for now",
+      "position": "bothArms",
+      "level": 1,
+      "properties": {
+        "armour":3,
+        "weight":10,
+        "value":50
+      }
+    },{
+      "name": "leather arm brace",
+      "description": "a leather arm brace, like the gladiators of old would wear",
+      "position": "rightArm",
+      "level": 1,
+      "properties": {
+        "armour":2,
+        "weight":5,
+        "value":30
+      }
+    }
+  ]

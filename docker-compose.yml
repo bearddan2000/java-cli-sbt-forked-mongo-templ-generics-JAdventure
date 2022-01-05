@@ -1,0 +1,19 @@
+version: '3.3'
+services:
+
+  db:
+    image: mongo
+    volumes:
+        - ./db/data_dump:/data/db
+        - ./db/init:/docker-entrypoint-initdb.d
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
+      - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
+
+  api:
+    build: api
+    ports:
+      - 80:8080
+    depends_on:
+      - db

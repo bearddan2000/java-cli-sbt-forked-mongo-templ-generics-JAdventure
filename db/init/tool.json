@@ -1,0 +1,12 @@
+[
+    {
+      "name": "lock and pick",
+      "description": "tools to pick locks",
+      "position": "rightHand",
+      "level": 1,
+      "properties": {
+        "value": 20,
+        "weight": 1
+      }
+    }
+]

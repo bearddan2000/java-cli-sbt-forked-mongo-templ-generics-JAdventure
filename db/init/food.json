@@ -1,0 +1,45 @@
+[
+    {
+      "name": "bread",
+      "description": "small piece of bread",
+      "position": "mouth",
+      "level": 1,
+      "properties": {
+        "health": 20,
+        "value": 10
+      }
+    },
+    {
+     "name": "raw meat",
+     "description": "some delicious raw meat",
+     "position": "mouth",
+     "level": 1,
+     "properties": {
+       "health": 7,
+       "weight": 2,
+       "value": 3
+     }
+   },
+     {
+       "name": "cooked meat",
+       "description": "some delicious cooked meat",
+       "position": "mouth",
+       "level": 1,
+       "properties": {
+         "health": 13,
+         "weight": 2,
+         "value": 10
+      }
+    },
+      {
+        "name": "burnt meat",
+        "description": "some crispy burnt meat",
+        "position": "mouth",
+        "level": 1,
+        "properties": {
+          "health": 4,
+          "weight": 2,
+          "value": 2
+        }
+      }
+  ]
